@@ -1,0 +1,29 @@
+  #include<iostream>
+ using namespace std;
+ int main()
+ {
+      int a,b,c;
+      cin>>a>>b>>c;
+      cout<<"1)Dead:"<<a<<endl;
+      cout<<"2)Injured:"<<b<<endl;
+      cout<<"3)Safe:"<<c<<endl;
+      cout<<"Please help the people who are suffering!!!";
+      
+     
+ }
+ 
+Sample Input:
+
+2000
+3000
+10000
+
+Sample Output:
+
+1)Dead:2000
+
+2)Injured:3000
+
+3)Safe:10000
+
+Please help the people who are suffering!!!
