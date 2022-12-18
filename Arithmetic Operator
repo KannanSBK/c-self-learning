@@ -1,0 +1,27 @@
+ #include<iostream>
+ using namespace std;
+ int main()
+ {
+     int a,b,c,d,e,f,g;
+     cin>>a>>b;
+     c=a+b;
+     cout<<a<<"+"<<b<<"="<<c<<endl;
+     d=a-b;
+     cout<<a<<"-"<<b<<"="<<d<<endl;
+     e=a*b;
+     cout<<a<<"*"<<b<<"="<<e<<endl;
+     f=a/b;
+     cout<<a<<"/"<<b<<"="<<f<<endl;
+     g=a%b;
+     cout<<a<<"+"<<b<<"="<<g<<endl;
+ }
+ 
+Input :
+7
+5
+Output :
+7 + 5 = 12
+7 - 5 = 2
+7 * 5 = 35
+7 / 5 = 1
+7 % 5 = 2
