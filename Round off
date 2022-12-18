@@ -1,0 +1,19 @@
+ #include<iostream>
+ #include<math.h>
+ using namespace std;
+ int main()
+ {
+     float a;
+     cin>>a;
+     cout<<floor(a)<<endl;
+     cout<<ceil(a)<<endl;
+     cout<<floor(a);
+    
+ }
+ 
+Input:
+54.5
+Output:
+54
+55.0
+54.0
