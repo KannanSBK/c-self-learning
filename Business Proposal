@@ -1,0 +1,28 @@
+ #include<iostream>
+ #include<iomanip>
+ using namespace std;
+ int main()
+ {
+     int p,r,n;
+     float i,j,k,l;
+     cin>>p>>r>>n;
+     i=(p*r*n)/100;
+     cout<<fixed<<setprecision(2)<<i<<endl;
+     j=p+i;
+     cout<<fixed<<setprecision(2)<<j<<endl;
+     k=(2*i)/100;
+     cout<<fixed<<setprecision(2)<<k<<endl;
+     l=j-k;
+     cout<<fixed<<setprecision(2)<<l;
+ }
+ 
+Input
+100
+1
+10
+
+Output
+10.00
+110.00
+0.20
+109.80
