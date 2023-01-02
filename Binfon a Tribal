@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int a,b,c,d;
+    cin>>a;
+    b=a/365;
+    c=(a%365)/7;
+    d=(a%365)%7/1;
+    cout<<b<<endl<<c<<endl<<d;
+}
+
+INPUT FORMAT: 
+Input consists of an integer which corresponds to the number of days. 
+
+OUTPUT FORMAT: 
+The output consists of three integers. 
+The first integer corresponds to the total years. 
+The second integer corresponds to the total weeks. 
+The third integer corresponds to the total days.
+Sample Input
+373
+
+Sample Output
+1
+1
+1
